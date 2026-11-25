@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1064" height="1556" viewBox="0 0 1064 1556" role="img" aria-label="角色协作｜设计先行，额度内并行">
+<title>角色协作｜设计先行，额度内并行</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#62758a"/></marker></defs>
+<rect width="100%" height="100%" fill="#f3f6fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="36" y="45" fill="#203246" font-size="28" font-weight="700" text-anchor="start"><tspan x="36" dy="0">角色协作｜设计先行，额度内并行</tspan></text>
+<rect x="24" y="94" width="1016" height="446" rx="18" fill="#ffffff" stroke="#d8e1ea"/>
+<text x="48" y="127" fill="#174b7b" font-size="19" font-weight="700" text-anchor="start"><tspan x="48" dy="0">1  工作流程：先设计交接，再按任务、依赖与名额调度</tspan></text>
+<g transform="translate(24 148)">
+<path d="M 220 32 H 254.5 V 32 H 289" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 472 32 H 506.5 V 32 H 541" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 724 32 H 758.5 V 32 H 793" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 886 64 V 100.5 H 886 V 137" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 796 172 H 761.5 V 172 H 727" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 886 204 V 240.5 H 886 V 277" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 634 204 V 240.5 H 634 V 277" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 796 312 H 761.5 V 312 H 727" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 544 312 H 524 V 368 H 243 V 312 H 223" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 544 324 H 509.5 V 324 H 475" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 472 300 H 506.5 V 300 H 541" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 634 280 V 260 H 268 V 87 H 382 V 67" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="40" y="0" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="130" y="37" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="130" dy="0">用户原始需求</tspan></text>
+<rect x="292" y="0" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="382" y="27" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="382" dy="0">设计者分析需求</tspan><tspan x="382" dy="20">补全内容与提示词</tspan></text>
+<rect x="544" y="0" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="634" y="27" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="634" dy="0">完整设计文档</tspan><tspan x="634" dy="20">内含增强提示词</tspan></text>
+<rect x="796" y="0" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="886" y="27" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="886" dy="0">唯一总分配者</tspan><tspan x="886" dy="20">实际读取后分工</tspan></text>
+<rect x="796" y="140" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="886" y="167" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="886" dy="0">就绪任务＋可用名额</tspan><tspan x="886" dy="20">决定并行或顺序</tspan></text>
+<rect x="544" y="140" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="634" y="167" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="634" dy="0">无依赖与写入冲突</tspan><tspan x="634" dy="20">多个工作者并行</tspan></text>
+<rect x="796" y="280" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="886" y="307" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="886" dy="0">复用角色／排队</tspan><tspan x="886" dy="20">按依赖顺序执行</tspan></text>
+<rect x="544" y="280" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="634" y="307" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="634" dy="0">独立审查</tspan><tspan x="634" dy="20">作者不能自批通过</tspan></text>
+<rect x="292" y="280" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="382" y="307" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="382" dy="0">工作者修改或重做</tspan><tspan x="382" dy="20">只处理受影响任务</tspan></text>
+<rect x="40" y="280" width="180" height="64" rx="11" fill="#eaf4ff" stroke="#3178bb" stroke-width="1.6"/>
+<text x="130" y="317" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="130" dy="0">验收通过后交付</tspan></text>
+<rect x="737.5" y="147" width="48" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="761.5" y="160" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="761.5" dy="0">可并行</tspan></text>
+<rect x="893" y="219.5" width="36" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="898" y="232.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="start"><tspan x="898" dy="0">否则</tspan></text>
+<rect x="365.5" y="347" width="36" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="383.5" y="360" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="383.5" dy="0">通过</tspan></text>
+<rect x="491.5" y="299" width="36" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="509.5" y="312" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="509.5" dy="0">驳回</tspan></text>
+<rect x="488.5" y="275" width="36" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="506.5" y="288" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="506.5" dy="0">复查</tspan></text>
+<rect x="206" y="160.5" width="60" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="260" y="173.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="end"><tspan x="260" dy="0">设计问题</tspan></text>
+</g>
+<rect x="24" y="564" width="1016" height="446" rx="18" fill="#ffffff" stroke="#d8e1ea"/>
+<text x="48" y="597" fill="#205e48" font-size="19" font-weight="700" text-anchor="start"><tspan x="48" dy="0">2  调用与额度：子分配者可自主调用，所有分支共享全局名额</tspan></text>
+<g transform="translate(24 618)">
+<path d="M 220 32 H 254.5 V 32 H 289" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 472 32 H 506.5 V 32 H 541" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 724 32 H 758.5 V 32 H 793" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 886 64 V 100.5 H 634 V 137" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 634 204 V 240.5 H 382 V 277" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 634 204 V 240.5 H 634 V 277" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 622 204 V 228.5 H 874 V 277" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 898 280 V 255.5 H 646 V 207" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<path d="M 886 280 V 260 H 772 V 87 H 886 V 67" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="40" y="0" width="180" height="64" rx="11" fill="#eaf7f0" stroke="#328065" stroke-width="1.6"/>
+<text x="130" y="27" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="130" dy="0">主代理流程入口</tspan><tspan x="130" dy="20">尚未业务分工</tspan></text>
+<rect x="292" y="0" width="180" height="64" rx="11" fill="#eaf7f0" stroke="#328065" stroke-width="1.6"/>
+<text x="382" y="37" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="382" dy="0">独立设计者</tspan></text>
+<rect x="544" y="0" width="180" height="64" rx="11" fill="#eaf7f0" stroke="#328065" stroke-width="1.6"/>
+<text x="634" y="27" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="634" dy="0">写入并推送文档</tspan><tspan x="634" dy="20">路径与提示词摘要</tspan></text>
+<rect x="796" y="0" width="180" height="64" rx="11" fill="#eaf7f0" stroke="#328065" stroke-width="1.6"/>
+<text x="886" y="27" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="886" dy="0">同一主代理</tspan><tspan x="886" dy="20">唯一总分配者</tspan></text>
+<rect x="544" y="140" width="180" height="64" rx="11" fill="#eaf7f0" stroke="#328065" stroke-width="1.6"/>
+<text x="634" y="167" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="634" dy="0">工作者兼子分配者</tspan><tspan x="634" dy="20">额度内自主调用</tspan></text>
+<rect x="292" y="280" width="180" height="64" rx="11" fill="#eaf7f0" stroke="#328065" stroke-width="1.6"/>
+<text x="382" y="307" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="382" dy="0">叶子工作者甲</tspan><tspan x="382" dy="20">可与乙并行</tspan></text>
+<rect x="544" y="280" width="180" height="64" rx="11" fill="#eaf7f0" stroke="#328065" stroke-width="1.6"/>
+<text x="634" y="307" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="634" dy="0">叶子工作者乙</tspan><tspan x="634" dy="20">可与甲并行</tspan></text>
+<rect x="796" y="280" width="180" height="64" rx="11" fill="#eaf7f0" stroke="#328065" stroke-width="1.6"/>
+<text x="886" y="307" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="886" dy="0">独立审查者</tspan><tspan x="886" dy="20">也计入实际名额</tspan></text>
+<rect x="230.5" y="7" width="48" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="254.5" y="20" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="254.5" dy="0">先启动</tspan></text>
+<rect x="728.5" y="7" width="60" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="758.5" y="20" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="758.5" dy="0">实际读取</tspan></text>
+<rect x="718" y="79.5" width="84" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="760" y="92.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="760" dy="0">划分模块额度</tspan></text>
+<rect x="736" y="234.5" width="72" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="772" y="247.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="772" dy="0">意见／驳回</tspan></text>
+</g>
+<rect x="24" y="1034" width="1016" height="446" rx="18" fill="#ffffff" stroke="#d8e1ea"/>
+<text x="48" y="1067" fill="#805018" font-size="19" font-weight="700" text-anchor="start"><tspan x="48" dy="0">3  讨论与驳回：按证据处理分歧，返工保留无影响成果</tspan></text>
+<g transform="translate(24 1088)">
+<path d="M 220 32 H 254.5 V 32 H 289" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 472 32 H 506.5 V 32 H 541" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 634 64 V 100.5 H 130 V 137" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 220 172 H 254.5 V 172 H 289" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 472 172 H 492 V 228 H 773 V 172 H 793" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 634 64 V 100.5 H 634 V 137" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 724 172 H 758.5 V 172 H 793" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 886 140 V 103.5 H 886 V 67" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 886 140 V 103.5 H 634 V 67" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<path d="M 886 204 V 240.5 H 886 V 277" fill="none" stroke="#62758a" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="40" y="0" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="130" y="37" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="130" dy="0">审查者提出问题</tspan></text>
+<rect x="292" y="0" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="382" y="27" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="382" dy="0">设计者／分配者</tspan><tspan x="382" dy="20">工作者回应或反驳</tspan></text>
+<rect x="544" y="0" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="634" y="27" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="634" dy="0">核对原始需求</tspan><tspan x="634" dy="20">与实际证据</tspan></text>
+<rect x="796" y="0" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="886" y="37" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="886" dy="0">通过才允许交付</tspan></text>
+<rect x="40" y="140" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="130" y="177" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="130" dy="0">设计者修订文档</tspan></text>
+<rect x="292" y="140" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="382" y="167" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="382" dy="0">总分配者同步</tspan><tspan x="382" dy="20">受影响任务</tspan></text>
+<rect x="544" y="140" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="634" y="167" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="634" dy="0">工作者修改或重做</tspan><tspan x="634" dy="20">保留无影响成果</tspan></text>
+<rect x="796" y="140" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="886" y="167" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="886" dy="0">独立复查</tspan><tspan x="886" dy="20">复用有效检查证据</tspan></text>
+<rect x="796" y="280" width="180" height="64" rx="11" fill="#fff3e4" stroke="#b87528" stroke-width="1.6"/>
+<text x="886" y="307" fill="#203246" font-size="14" font-weight="500" text-anchor="middle"><tspan x="886" dy="0">保留未通过并上报</tspan><tspan x="886" dy="20">不以轮数代替通过</tspan></text>
+<rect x="352" y="79.5" width="60" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="382" y="92.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="382" dy="0">设计问题</tspan></text>
+<rect x="578.5" y="207" width="108" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="632.5" y="220" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="632.5" dy="0">同步后执行并复查</tspan></text>
+<rect x="641" y="79.5" width="60" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="646" y="92.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="start"><tspan x="646" dy="0">实施问题</tspan></text>
+<rect x="893" y="82.5" width="36" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="898" y="95.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="start"><tspan x="898" dy="0">通过</tspan></text>
+<rect x="730" y="82.5" width="60" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="760" y="95.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="middle"><tspan x="760" dy="0">限内继续</tspan></text>
+<rect x="893" y="219.5" width="84" height="20" rx="4" fill="#ffffff" fill-opacity="0.95"/>
+<text x="898" y="232.5" fill="#45596d" font-size="12" font-weight="400" text-anchor="start"><tspan x="898" dy="0">两轮仍未通过</tspan></text>
+</g>
+<text x="36" y="1506" fill="#5e6f81" font-size="13" font-weight="400" text-anchor="start"><tspan x="36" dy="0">通用计划图，不是并发实测。调用图表示角色关系，不表示全部角色同时占位；名额不足则分阶段执行。实跑需更新真实角色、调用和争议事件，无争议标未触发。</tspan></text></g>
+</svg>

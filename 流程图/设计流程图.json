@@ -1,0 +1,85 @@
+{
+  "title": "角色协作｜设计先行，额度内并行",
+  "charts": [
+    {
+      "title": "1  工作流程：先设计交接，再按任务、依赖与名额调度",
+      "nodes": [
+        {"id":"user", "label":"用户原始需求", "row":0, "col":0},
+        {"id":"designer", "label":"设计者分析需求\n补全内容与提示词", "row":0, "col":1},
+        {"id":"doc", "label":"完整设计文档\n内含增强提示词", "row":0, "col":2},
+        {"id":"total", "label":"唯一总分配者\n实际读取后分工", "row":0, "col":3},
+        {"id":"schedule", "label":"就绪任务＋可用名额\n决定并行或顺序", "row":1, "col":3},
+        {"id":"parallel", "label":"无依赖与写入冲突\n多个工作者并行", "row":1, "col":2},
+        {"id":"serial", "label":"复用角色／排队\n按依赖顺序执行", "row":2, "col":3},
+        {"id":"review", "label":"独立审查\n作者不能自批通过", "row":2, "col":2},
+        {"id":"fix", "label":"工作者修改或重做\n只处理受影响任务", "row":2, "col":1},
+        {"id":"done", "label":"验收通过后交付", "row":2, "col":0}
+      ],
+      "edges": [
+        {"from":"user", "to":"designer"},
+        {"from":"designer", "to":"doc"},
+        {"from":"doc", "to":"total"},
+        {"from":"total", "to":"schedule"},
+        {"from":"schedule", "to":"parallel", "label":"可并行"},
+        {"from":"schedule", "to":"serial", "label":"否则"},
+        {"from":"parallel", "to":"review"},
+        {"from":"serial", "to":"review"},
+        {"from":"review", "to":"done", "label":"通过"},
+        {"from":"review", "to":"fix", "label":"驳回"},
+        {"from":"fix", "to":"review", "label":"复查"},
+        {"from":"review", "to":"designer", "label":"设计问题", "dashed":true}
+      ]
+    },
+    {
+      "title": "2  调用与额度：子分配者可自主调用，所有分支共享全局名额",
+      "nodes": [
+        {"id":"entry", "label":"主代理流程入口\n尚未业务分工", "row":0, "col":0},
+        {"id":"designer", "label":"独立设计者", "row":0, "col":1},
+        {"id":"document", "label":"写入并推送文档\n路径与提示词摘要", "row":0, "col":2},
+        {"id":"total", "label":"同一主代理\n唯一总分配者", "row":0, "col":3},
+        {"id":"sub", "label":"工作者兼子分配者\n额度内自主调用", "row":1, "col":2},
+        {"id":"leafA", "label":"叶子工作者甲\n可与乙并行", "row":2, "col":1},
+        {"id":"leafB", "label":"叶子工作者乙\n可与甲并行", "row":2, "col":2},
+        {"id":"reviewer", "label":"独立审查者\n也计入实际名额", "row":2, "col":3}
+      ],
+      "edges": [
+        {"from":"entry", "to":"designer", "label":"先启动"},
+        {"from":"designer", "to":"document"},
+        {"from":"document", "to":"total", "label":"实际读取"},
+        {"from":"total", "to":"sub", "label":"划分模块额度"},
+        {"from":"sub", "to":"leafA"},
+        {"from":"sub", "to":"leafB"},
+        {"from":"sub", "to":"reviewer"},
+        {"from":"reviewer", "to":"sub", "label":"意见／驳回", "dashed":true},
+        {"from":"reviewer", "to":"total", "dashed":true}
+      ]
+    },
+    {
+      "title": "3  讨论与驳回：按证据处理分歧，返工保留无影响成果",
+      "nodes": [
+        {"id":"question", "label":"审查者提出问题", "row":0, "col":0},
+        {"id":"response", "label":"设计者／分配者\n工作者回应或反驳", "row":0, "col":1},
+        {"id":"check", "label":"核对原始需求\n与实际证据", "row":0, "col":2},
+        {"id":"done", "label":"通过才允许交付", "row":0, "col":3},
+        {"id":"design", "label":"设计者修订文档", "row":1, "col":0},
+        {"id":"sync", "label":"总分配者同步\n受影响任务", "row":1, "col":1},
+        {"id":"work", "label":"工作者修改或重做\n保留无影响成果", "row":1, "col":2},
+        {"id":"recheck", "label":"独立复查\n复用有效检查证据", "row":1, "col":3},
+        {"id":"unpassed", "label":"保留未通过并上报\n不以轮数代替通过", "row":2, "col":3}
+      ],
+      "edges": [
+        {"from":"question", "to":"response"},
+        {"from":"response", "to":"check"},
+        {"from":"check", "to":"design", "label":"设计问题"},
+        {"from":"design", "to":"sync"},
+        {"from":"sync", "to":"recheck", "label":"同步后执行并复查"},
+        {"from":"check", "to":"work", "label":"实施问题"},
+        {"from":"work", "to":"recheck"},
+        {"from":"recheck", "to":"done", "label":"通过"},
+        {"from":"recheck", "to":"check", "label":"限内继续", "dashed":true},
+        {"from":"recheck", "to":"unpassed", "label":"两轮仍未通过"}
+      ]
+    }
+  ],
+  "note": "通用计划图，不是并发实测。调用图表示角色关系，不表示全部角色同时占位；名额不足则分阶段执行。实跑需更新真实角色、调用和争议事件，无争议标未触发。"
+}

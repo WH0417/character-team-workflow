@@ -1,0 +1,31 @@
+{
+  "title": "流程图渲染器验证 <SVG & PNG>",
+  "charts": [
+    {
+      "title": "一、讨论与汇总",
+      "nodes": [
+        { "id": "input", "label": "提出问题与目标", "row": 0, "col": 0 },
+        { "id": "debate", "label": "多个角色独立分析\n交换证据与观点", "row": 1, "col": 0 },
+        { "id": "result", "label": "形成可执行的共同结论", "row": 2, "col": 0 }
+      ],
+      "edges": [
+        { "from": "input", "to": "debate", "label": "开始" },
+        { "from": "debate", "to": "result", "label": "汇总", "dashed": true }
+      ]
+    },
+    {
+      "title": "二、并行检查",
+      "nodes": [
+        { "id": "check", "label": "检查约束与边界", "row": 0, "col": 0 },
+        { "id": "verify", "label": "验证结果", "row": 0, "col": 1 }
+      ],
+      "edges": [{ "from": "check", "to": "verify" }]
+    },
+    {
+      "title": "三、交付",
+      "nodes": [{ "id": "done", "label": "保存 SVG / PNG", "row": 0, "col": 0 }],
+      "edges": []
+    }
+  ],
+  "note": "支持中文自动换行、显式换行、虚线、箭头与 XML 特殊字符转义。"
+}
